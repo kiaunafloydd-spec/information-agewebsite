@@ -28,11 +28,14 @@ h2 {
     color: #1d4ed8;
 }
 
+
 /* Technology Images */
 .technology-images {
     display: flex;
+    justify-content: center;
     gap: 15px;
     margin-top: 15px;
+    flex-wrap: wrap;
 }
 
 .technology-images img {
@@ -40,7 +43,9 @@ h2 {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    box-sizing: border-box;
 }
+
 
 /* Footer */
 footer {
