@@ -31,24 +31,15 @@ h2 {
 /* Technology Images */
 .technology-images {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 15px;
     margin-top: 15px;
-    flex-wrap: wrap;
 }
 
 .technology-images img {
-    width: 220px !important;
-    height: 200px !important;
-    min-width: 220px;
-    max-width: 220px;
-    min-height: 200px;
-    max-height: 200px;
+    width: 220px;
+    height: 200px;
     object-fit: cover;
-    display: block;
     border-radius: 8px;
-    box-sizing: border-box;
 }
 
 /* Footer */
