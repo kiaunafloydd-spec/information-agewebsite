@@ -35,8 +35,8 @@ h2 {
 }
 
 .technology-images img {
-    width: 220px;
-    height: 200px;
+    width: 520px;
+    height: 500px;
     object-fit: cover;
     border-radius: 8px;
 }
