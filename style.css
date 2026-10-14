@@ -83,7 +83,6 @@ footer {
         margin: 16px;
         padding: 18px;
     }
-```css
 /* Congressional App Challenge Photo Gallery */
 
 .coding-journey-gallery {
@@ -106,6 +105,7 @@ footer {
     margin-bottom: 20px;
 }
 
+/* Equal-sized photo containers */
 .coding-gallery {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -120,26 +120,26 @@ footer {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
+/* All pictures have identical dimensions */
 .coding-gallery figure:first-child {
-    grid-column: 1 / -1;
+    grid-column: auto;
 }
 
 .coding-gallery img {
     display: block;
-    width: 100%;
-    height: 230px;
-    object-fit: contain;
-    background-color: #f9fafb;
+    width: 220%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
     border-radius: 7px;
 }
 
-.coding-gallery figure:first-child img {
-    height: auto;
-    max-height: 320px;
-}
-
 .coding-gallery figcaption {
-    padding: 10px 4px 4px;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 4px;
     color: #1e3a8a;
     font-size: 0.9rem;
     text-align: center;
@@ -151,13 +151,7 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .coding-gallery figure:first-child {
-        grid-column: auto;
-    }
-
     .coding-gallery img {
-        height: auto;
-        max-height: 350px;
+        height: 250px;
     }
 }
-```
