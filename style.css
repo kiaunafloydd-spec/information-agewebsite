@@ -106,7 +106,7 @@ ul {
     margin: 24px 0;
     padding: 28px max(28px, calc((100% - 844px) / 2));
     background-color: #ffffff;
-    border: none;
+    border-left: 4px solid #1d4ed8;
     border-radius: 0;
     box-shadow: none;
     line-height: 1.7;
