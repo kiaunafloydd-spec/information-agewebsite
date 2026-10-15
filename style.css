@@ -101,13 +101,13 @@ ul {
 /* Technical Development Section */
 .development-section {
     text-align: left;
-    width: calc(100% - 40px);
-    max-width: 900px;
-    margin: 24px auto;
-    padding: 28px;
+    width: 100%;
+    max-width: none;
+    margin: 24px 0;
+    padding: 28px max(28px, calc((100% - 844px) / 2));
     background-color: #ffffff;
     border-left: 4px solid #1d4ed8;
-    border-radius: 8px;
+    border-radius: 0;
     box-shadow: 0 3px 12px rgba(15, 23, 42, 0.06);
     line-height: 1.7;
 }
@@ -116,7 +116,7 @@ ul {
     color: #ffffff;
     background-color: #1d4ed8;
     text-align: center;
-    margin: -28px -28px 20px -32px;
+    margin: -28px calc(-1 * max(28px, (100vw - 844px) / 2)) 20px -32px;
     padding: 28px 20px;
     border-radius: 8px 8px 0 0;
 }
@@ -186,13 +186,13 @@ footer p {
 
     section,
     .development-section {
-        width: calc(100% - 24px);
-        margin: 16px auto;
-        padding: 20px;
+        width: 100%;
+        margin: 16px 0;
+        padding: 20px 24px;
     }
 
     .development-section > h2 {
-        margin: -20px -20px 20px -24px;
+        margin: -20px -24px 20px -28px;
         padding: 22px 16px;
     }
 
