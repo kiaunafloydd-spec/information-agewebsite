@@ -113,6 +113,7 @@ ul {
 .technology-images img:nth-child(3) {
     width: 240px;
     object-fit: contain;
+    border: 2px solid #000000;
 }
 
 /* Coding Journey Section — preserved without its removed title */
