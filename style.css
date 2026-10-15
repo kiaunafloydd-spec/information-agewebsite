@@ -55,17 +55,17 @@ h4 {
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 18px;
     margin: 0 0 16px;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     margin: 24px 0 10px;
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 18px;
     margin: 24px 0 10px;
 }
 
@@ -98,6 +98,54 @@ ul {
     border-radius: 8px;
 }
 
+/* Coding Journey Section — preserved without its removed title */
+.development-section {
+    text-align: left;
+    width: 100%;
+    max-width: none;
+    margin: 24px 0;
+    padding: 28px max(28px, calc((100% - 844px) / 2));
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    line-height: 1.7;
+}
+
+.development-section h3,
+.development-section h4 {
+    color: #1d4ed8;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.development-section p {
+    color: #374151;
+    margin: 0 0 16px;
+}
+
+.gallery-description {
+    color: #374151;
+    margin-bottom: 18px;
+}
+
+.coding-gallery {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.coding-gallery img {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -121,8 +169,10 @@ footer p {
         padding: 20px;
     }
 
-    h2 {
-        font-size: 15px;
+    .development-section {
+        width: 100%;
+        margin: 16px 0;
+        padding: 20px 24px;
     }
 
     .technology-images img,
