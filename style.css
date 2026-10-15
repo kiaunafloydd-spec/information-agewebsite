@@ -80,6 +80,17 @@ ul {
     text-align: left;
 }
 
+.technology-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 28px;
+    row-gap: 4px;
+    width: 100%;
+    margin: 0 auto 18px;
+    padding-left: 24px;
+    text-align: left;
+}
+
 /* Technology Images */
 .technology-images {
     display: flex;
