@@ -14,27 +14,28 @@ body {
 
 /* Main Header */
 header {
-    background-color: #ffffff;
-    color: #374151;
+    background-color: #1d4ed8;
+    color: #ffffff;
     text-align: center;
     padding: 32px 20px;
 }
 
 header h1 {
-    color: #1d4ed8;
+    color: #ffffff;
     font-size: clamp(1.8rem, 4vw, 2.5rem);
     line-height: 1.2;
     margin: 0 0 8px;
 }
 
 header p {
-    color: #374151;
+    color: #ffffff;
     margin: 0;
 }
 
 /* Content Sections */
 section {
     background-color: #ffffff;
+    text-align: center;
     width: calc(100% - 40px);
     max-width: 900px;
     margin: 24px auto;
@@ -72,13 +73,16 @@ p {
 }
 
 ul {
-    margin: 0 0 18px;
+    display: inline-block;
+    margin: 0 auto 18px;
     padding-left: 24px;
+    text-align: left;
 }
 
 /* Technology Images */
 .technology-images {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
     margin-top: 18px;
@@ -95,6 +99,7 @@ ul {
 
 /* Technical Development Section */
 .development-section {
+    text-align: center;
     width: calc(100% - 40px);
     max-width: 900px;
     margin: 24px auto;
@@ -142,6 +147,7 @@ ul {
 
 .coding-gallery {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
 }
