@@ -10,8 +10,6 @@ body {
     color: #374151;
     background-color: #eef4ff;
     margin: 0;
-    border-left: 6px solid #1d4ed8;
-    min-height: 100vh;
 }
 
 /* Main Header */
@@ -103,12 +101,12 @@ ul {
 /* Coding Journey Section — preserved without its removed title */
 .development-section {
     text-align: left;
-    width: 100%;
+    width: calc(100% - 12px);
     max-width: none;
-    margin: 24px 0;
+    margin: 24px 0 24px 12px;
     padding: 28px max(28px, calc((100% - 844px) / 2));
     background-color: #ffffff;
-    border-left: 4px solid #1d4ed8;
+    border-left: 6px solid #1d4ed8;
     border-radius: 0;
     box-shadow: none;
     line-height: 1.7;
@@ -172,8 +170,8 @@ footer p {
     }
 
     .development-section {
-        width: 100%;
-        margin: 16px 0;
+        width: calc(100% - 12px);
+        margin: 16px 0 16px 12px;
         padding: 20px 24px;
     }
 
