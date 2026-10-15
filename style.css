@@ -112,9 +112,13 @@ ul {
     line-height: 1.7;
 }
 
-.development-section h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
+.development-section > h2 {
+    color: #ffffff;
+    background-color: #1d4ed8;
+    text-align: center;
+    margin: -28px -28px 20px -32px;
+    padding: 28px 20px;
+    border-radius: 8px 8px 0 0;
 }
 
 .development-section h3 {
@@ -185,6 +189,11 @@ footer p {
         width: calc(100% - 24px);
         margin: 16px auto;
         padding: 20px;
+    }
+
+    .development-section > h2 {
+        margin: -20px -20px 20px -24px;
+        padding: 22px 16px;
     }
 
     h2 {
