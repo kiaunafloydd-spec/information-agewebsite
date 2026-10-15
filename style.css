@@ -109,6 +109,12 @@ ul {
     border-radius: 8px;
 }
 
+/* Show the full video game console image */
+.technology-images img:nth-child(3) {
+    width: 240px;
+    object-fit: contain;
+}
+
 /* Coding Journey Section — preserved without its removed title */
 .development-section {
     text-align: left;
