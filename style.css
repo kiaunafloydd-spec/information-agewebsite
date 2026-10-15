@@ -101,10 +101,10 @@ ul {
 /* Coding Journey Section — preserved without its removed title */
 .development-section {
     text-align: left;
-    width: calc(100% - 12px);
-    max-width: none;
-    margin: 24px 0 24px 12px;
-    padding: 28px max(28px, calc((100% - 844px) / 2));
+    width: calc(100% - 40px);
+    max-width: 900px;
+    margin: 24px auto;
+    padding: 28px;
     background-color: #ffffff;
     border-left: 6px solid #1d4ed8;
     border-radius: 0;
@@ -170,9 +170,9 @@ footer p {
     }
 
     .development-section {
-        width: calc(100% - 12px);
-        margin: 16px 0 16px 12px;
-        padding: 20px 24px;
+        width: calc(100% - 24px);
+        margin: 16px auto;
+        padding: 20px;
     }
 
     .technology-images img {
